@@ -2,7 +2,17 @@
 	"name": "gpg-verify",
 	"description": "A module to use gpg's verify mechanism",
 	"author": "Jon Mårdsjö <jon.mardsjo@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/lulzmachine/gpg-verify.git"
+	},
 	"dependencies": {
 		"guid": "latest"
+	},
+	"devDependencies": {
+		"mocha": "latest"
+	},
+	"scripts": {
+		"test": "mocha"
 	}
 }
