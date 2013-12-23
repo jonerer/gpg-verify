@@ -1,0 +1,8 @@
+{
+	"name": "gpg-verify",
+	"description": "A module to use gpg's verify mechanism",
+	"author": "Jon Mårdsjö <jon.mardsjo@gmail.com>",
+	"dependencies": {
+		"guid": "latest"
+	}
+}
