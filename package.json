@@ -1,18 +1,35 @@
 {
-	"name": "gpg-verify",
-	"description": "A module to use gpg's verify mechanism",
-	"author": "Jon Mårdsjö <jon.mardsjo@gmail.com>",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/lulzmachine/gpg-verify.git"
-	},
-	"dependencies": {
-		"guid": "latest"
-	},
-	"devDependencies": {
-		"mocha": "latest"
-	},
-	"scripts": {
-		"test": "mocha"
-	}
+  "name": "gpg-verify",
+  "version": "0.0.1",
+  "description": "A module to use gpg's verify mechanism",
+  "main": "app.js",
+  "dependencies": {
+    "guid": "~0.0.12"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lulzmachine/gpg-verify.git"
+  },
+  "keywords": [
+    "gpg",
+    "openpgp",
+    "pgp",
+    "verify",
+    "commandline",
+    "sign",
+    "signature",
+    "dsa"
+  ],
+  "author": "Jon MÃ¥rdsjÃ¶ <jon.mardsjo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lulzmachine/gpg-verify/issues"
+  },
+  "homepage": "https://github.com/lulzmachine/gpg-verify"
 }
